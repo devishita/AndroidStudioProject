@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "732010037767",
+    "firebase_url": "https://trafficcongestion-d9a56.firebaseio.com",
+    "project_id": "trafficcongestion-d9a56",
+    "storage_bucket": "trafficcongestion-d9a56.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:732010037767:android:188b5880dcd63c9d",
+        "android_client_info": {
+          "package_name": "com.ishita.trafficcongestion"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "732010037767-9h0krcaeqsvdnbbjok8s4ktsmkcqparg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ishita.trafficcongestion",
+            "certificate_hash": "efaf725e2e70349cf730b3fd6a9cf2faea7fb890"
+          }
+        },
+        {
+          "client_id": "732010037767-k0ot2npu692f52j7elkigejfisfbvi89.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9_tIEm8gOjg9Ro4-oqRm8S5HYWndi78c"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "732010037767-k0ot2npu692f52j7elkigejfisfbvi89.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

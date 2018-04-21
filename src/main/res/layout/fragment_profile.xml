@@ -1,0 +1,70 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ishita.trafficcongestion.ProfileFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="User Name"
+        android:layout_marginTop="25dp"
+        android:textSize="28dp"
+        android:textStyle="bold"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter your name!"
+        android:id="@+id/uname"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="170sp"/>
+    <TextView
+        android:id="@+id/eid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email Id"
+        android:layout_marginTop="80dp"
+        android:textSize="28dp"
+        android:textStyle="bold"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter your email!"
+        android:id="@+id/uemail"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="170sp"/>
+    <TextView
+        android:id="@+id/vno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vehicle No."
+        android:layout_marginTop="135dp"
+        android:textSize="28dp"
+        android:textStyle="bold"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter your vehicle no.!"
+        android:id="@+id/uvno"
+        android:layout_marginTop="135dp"
+        android:layout_marginLeft="170sp"/>
+    <TextView
+        android:id="@+id/contact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contact"
+        android:layout_marginTop="190dp"
+        android:textSize="28dp"
+        android:textStyle="bold"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter your contact!"
+        android:id="@+id/ucontact"
+        android:layout_marginTop="190dp"
+        android:layout_marginLeft="170sp"/>
+
+</FrameLayout>

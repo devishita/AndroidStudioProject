@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ishita.trafficcongestion.BookSlotActivity"
+    android:background="#000000">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="48dp"
+        android:text="Select Slot!"
+        android:textColor="#f0e68c"
+        android:textSize="35dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="45sp"
+        android:layout_height="35sp"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="85dp"
+        android:layout_marginLeft="40dp" />
+    <Button
+        android:id="@+id/b2"
+        android:layout_width="45sp"
+        android:layout_height="35sp"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="85dp"
+        android:layout_marginLeft="120dp" />
+    <Button
+        android:id="@+id/b3"
+        android:layout_width="45sp"
+        android:layout_height="35sp"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="85dp"
+        android:layout_marginLeft="200dp" />
+    <Button
+        android:id="@+id/b4"
+        android:layout_width="45sp"
+        android:layout_height="35sp"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="85dp"
+        android:layout_marginLeft="280dp" />
+    <Button
+        android:id="@+id/b5"
+        android:layout_width="45sp"
+        android:layout_height="35sp"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="40dp" />
+    <Button
+        android:id="@+id/b6"
+        android:layout_width="45sp"
+        android:layout_height="35sp"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="120dp" />
+    <Button
+        android:id="@+id/b7"
+        android:layout_width="45sp"
+        android:layout_height="35sp"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="200dp" />
+    <Button
+        android:id="@+id/b8"
+        android:layout_width="45sp"
+        android:layout_height="35sp"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="280dp" />
+    <Button
+        android:id="@+id/b9"
+        android:layout_width="45sp"
+        android:layout_height="35sp"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="215dp"
+        android:layout_marginLeft="40dp" />
+    <Button
+        android:id="@+id/b10"
+        android:layout_width="45sp"
+        android:layout_height="35sp"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="215dp"
+        android:layout_marginLeft="120dp" />
+    <Button
+        android:id="@+id/b11"
+        android:layout_width="45sp"
+        android:layout_height="35sp"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="215dp"
+        android:layout_marginLeft="200dp" />
+    <Button
+        android:id="@+id/b12"
+        android:layout_width="45sp"
+        android:layout_height="35sp"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="215dp"
+        android:layout_marginLeft="280dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_below="@+id/b10"
+        android:layout_marginTop="30dp"
+        android:layout_toStartOf="@+id/button4"
+        android:text="Submit Slot" />
+
+    <Button
+        android:layout_width="45sp"
+        android:layout_height="35sp"
+        android:layout_alignParentBottom="true"
+        android:layout_toStartOf="@+id/textView2"
+        android:background="#ff0000"
+        android:clickable="false"
+        android:id="@+id/button5" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="45sp"
+        android:layout_height="35sp"
+        android:layout_alignTop="@+id/button5"
+        android:layout_toEndOf="@+id/b11"
+        android:background="#008000"
+        android:clickable="false" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:id="@+id/textView4"
+        android:layout_alignBaseline="@+id/button4"
+        android:layout_alignBottom="@+id/button4"
+        android:layout_marginStart="14dp"
+        android:layout_toEndOf="@+id/button4"
+        android:text="Available"
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_alignBaseline="@+id/button5"
+        android:layout_alignBottom="@+id/button5"
+        android:layout_alignStart="@+id/b10"
+        android:text="Filled"
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
+</RelativeLayout>
